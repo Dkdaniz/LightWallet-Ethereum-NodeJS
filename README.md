@@ -1,10 +1,9 @@
 # LightWallet-Ethereum-NodeJS
 Api in nodejs with all the functionalities that a lightwallet can make available. Compatible with token ERC20.
 
-## Routes
+# Routes
 
 ## **`/seed/:point`**
-
 
 __Inputs__
 
