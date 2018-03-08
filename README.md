@@ -1,5 +1,14 @@
-# LightWallet-Ethereum-NodeJS
+# LightWallet Ethereum NodeJS
 Api in nodejs with all the functionalities that a lightwallet can make available. Compatible with token ERC20.
+
+# Getting Started
+
+```
+npm install 
+npm start
+
+```
+
 
 # Routes
 
