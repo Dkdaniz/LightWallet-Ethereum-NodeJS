@@ -4,6 +4,9 @@ Api in nodejs with all the functionalities that a lightwallet can make available
 # Routes
 
 ## **`/seed/:point`**
+```
+add entropy to the wallet seed security phrase generation
+```
 
 __Inputs__
 
@@ -15,6 +18,9 @@ __Outputs__
 <br>
 
 ## **`/wallet`**
+```
+function responsible for the generation of wallet.json where the seed is received from '/seed/:point'
+```
 
 __Inputs__
 
@@ -28,6 +34,9 @@ __Outputs__
 
 
 ## **`/wallet/seed`**
+```
+function responsible for return wallet for seed
+```
 
 __Inputs__ 
 
@@ -41,6 +50,9 @@ __Outputs__
 <br>
 
 ## **`/wallet/validate`**
+```
+function responsible for validate if password is compatible with wallet
+```
 
 __Inputs__ 
 
@@ -54,6 +66,9 @@ __Outputs__
 
 
 ## **`/seed`**
+```
+function responsible for show seed
+```
 
 __Inputs__ 
 
@@ -68,6 +83,9 @@ __Outputs__
 
 
 ## **`/eth/balance`**
+```
+Function responsible for returning account balance in ETH 
+```
 
 __Inputs__ 
 
@@ -82,6 +100,9 @@ __Outputs__
 
 
 ## **`/contract/balance`**
+```
+Function responsible for returning account balance in token contract ERC20
+```
 
 __Inputs__ 
 
@@ -94,6 +115,9 @@ __Outputs__
 <br>
 
 ## **`/eth/send`**
+```
+Function responsible for send ETH
+```
 
 __Inputs__ 
 
@@ -111,6 +135,9 @@ __Outputs__
 <br>
 
 ## **`/contract/send`**
+```
+Function responsible for send Token Contract
+```
 
 __Inputs__ 
 
@@ -129,6 +156,10 @@ __Outputs__
 
 
 ## **`/transaction/:address`**
+```
+Function responsible for return list all transaction 
+```
+__Inputs__ 
 - `address:`
 
 __Outputs__

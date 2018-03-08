@@ -1,6 +1,9 @@
 'use strict';
 
-//autor: Daniel Marques
+//Author: Daniel Marques
+//Twitter: @dkdaniz
+//Github: @dkdaniz
+//WebSite: www.descentralizado.com.br
 
 const helper = require('./helper');
 const fs = require("fs");
@@ -31,7 +34,6 @@ class Routes{
 
 	/* creating app Routes starts */
 	appRoutes(){
-
 
 		this.app.get('/seed/:point',(request, response) => {
 			if(isNullOrUndefined.isNullOrUndefined(request.params.point))
